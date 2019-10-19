@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+section {
+  height: 100%;
+}
+
+h1 {
+  height: 100%;
+  font-size: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
