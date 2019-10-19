@@ -2,7 +2,7 @@
 
 I often have the urge to create websites that serve a single purpose. That often to simply assert one word: No.
 
-No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to ship a GitHub pages site to answer a yes/no question super quickly. Clone it, update the `CNAME` file, and ship it.
+No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to ship a GitHub pages site to answer a yes/no question super quickly. Clone it, add a `CNAME` file if you want to attach a domain to it, and ship it.
 
 ## Optional tweaks
 
@@ -22,7 +22,7 @@ If you want to remove the hidden message, you can do so in `index.html`. Additio
 
 I spent a few minutes looking for a nice font on Google Fonts. If you want to change the font, you'll need to update the second `<link>` tag in `index.html` and the font family on the `h1` and `h2` elements in `index.css`.
 
-### Contributing
+## Contributing
 
 This repo has a [Code of Conduct](./CODE_OF_CONDUCT.md). Follow it.
 
