@@ -11,7 +11,7 @@ No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to s
 Clone the repo.
 
 ```bash
-git clone git@github.com:cutenode/no-boilerplate.git <path to directory you want to put it in>
+$ git clone git@github.com:cutenode/no-boilerplate.git <path to directory you want to put it in>
 
 # For example:
 #
@@ -21,9 +21,23 @@ git clone git@github.com:cutenode/no-boilerplate.git <path to directory you want
 
 **Step Two:**
 
-Follow the guidance provided by GitHub to publish with GitHub Pages ([About GitHub Pages](https://help.github.com/en/articles/about-github-pages), [Configuring a Custom Domain for your GitHub Pages Site](https://help.github.com/en/articles/configuring-a-custom-domain-for-your-github-pages-site)), or use your preferred static site host.
+Update the git origin to your project's Git Repo. Now's a good time to make any changes to the site if you'd like to!
+
+```bash
+$ git remote rm origin
+$ git remote add origin git@github.com:<ORG OR USER>/<REPO>.git
+$ git push
+
+# Make sure you update the second command as appropriately. For example, I used this for amiareal.dev:
+#
+# $ git remote add origin git@github.com:cutenode/amiareal.dev.git
+```
 
 **Step Three:**
+
+Follow the guidance provided by GitHub to publish with GitHub Pages ([About GitHub Pages](https://help.github.com/en/articles/about-github-pages), [Configuring a Custom Domain for your GitHub Pages Site](https://help.github.com/en/articles/configuring-a-custom-domain-for-your-github-pages-site)), or use your preferred static site host.
+
+**Step Four:**
 
 Ship it 🚢
 
