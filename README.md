@@ -2,7 +2,7 @@
 
 I often have the urge to create websites that serve a single purpose. That often to simply assert one word: No.
 
-No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to ship a GitHub pages site to answer a yes/no question super quickly. Clone it, update your GitHub repo's GitHub Pages and Custom Domain settings as appropriate, and ship it.
+No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to ship a GitHub pages site to answer a yes/no question super quickly. Clone it, update the CNAME file, your GitHub repo's GitHub Pages settings, and Custom Domain settings as appropriate, and ship it.
 
 ## Optional tweaks
 
