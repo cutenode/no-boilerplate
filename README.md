@@ -2,7 +2,30 @@
 
 I often have the urge to create websites that serve a single purpose. That often to simply assert one word: No.
 
-No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to ship a GitHub pages site to answer a yes/no question super quickly. Clone it, update the CNAME file, your GitHub repo's GitHub Pages settings, and Custom Domain settings as appropriate, and ship it.
+No boilerplate is a simple, no boilerplate HTML boilerplate that allows you to ship a GitHub pages site to answer a yes/no question super quickly.
+
+## Usage
+
+**Step One:**
+
+Clone the repo.
+
+```bash
+git clone git@github.com:cutenode/no-boilerplate.git <path to directory you want to put it in>
+
+# For example:
+#
+# git clone git@github.com:cutenode/no-boilerplate.git amiareal.dev
+# The above command will put it in the directory named amiareal.dev
+```
+
+**Step Two:**
+
+Follow the guidance provided by GitHub to publish with GitHub Pages ([About GitHub Pages](https://help.github.com/en/articles/about-github-pages), [Configuring a Custom Domain for your GitHub Pages Site](https://help.github.com/en/articles/configuring-a-custom-domain-for-your-github-pages-site)), or use your preferred static site host.
+
+**Step Three:**
+
+Ship it 🚢
 
 ## Optional tweaks
 
