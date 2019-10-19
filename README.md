@@ -37,6 +37,8 @@ $ git push
 
 Follow the guidance provided by GitHub to publish with GitHub Pages ([About GitHub Pages](https://help.github.com/en/articles/about-github-pages), [Configuring a Custom Domain for your GitHub Pages Site](https://help.github.com/en/articles/configuring-a-custom-domain-for-your-github-pages-site)), or use your preferred static site host.
 
+One good thing to note here is that you should use the `master` branch as a source for your GitHub Pages.
+
 **Step Four:**
 
 Ship it 🚢
